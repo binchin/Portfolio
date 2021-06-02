@@ -6,6 +6,7 @@
 }
 header {
   min-height: 10vh;
+  display: flex;
 }
 nav {
   display: flex;
@@ -13,7 +14,6 @@ nav {
   align-items: center;
   width: 95%;
   margin: auto;
-  min-height: 10vh;
 }
 .logo h2 {
   font-family: "Russo One", sans-serif;
