@@ -4,6 +4,12 @@
   box-sizing: border-box;
   background-color: #101010;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+/* NAVBAR  */
 header {
   min-height: 10vh;
   display: flex;
@@ -31,4 +37,14 @@ nav {
 .span3 {
   width: 30px;
   margin-bottom: 0.3rem;
+}
+
+/* HERO SECTION  */
+.hero {
+  min-height: 100vh;
+  display: flex;
+}
+.personal-details {
+  width: 90%;
+  margin: auto;
 }
