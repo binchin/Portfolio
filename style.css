@@ -151,11 +151,6 @@ nav {
   letter-spacing: 0.1rem;
 }
 /* SKILLS */
-.skills {
-}
-/* .icons-wrapper {
-  display: flex;
-} */
 .icons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
