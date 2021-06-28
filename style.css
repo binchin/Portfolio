@@ -116,3 +116,65 @@ nav {
   color: #101010;
   font-weight: bold;
 }
+/* SKILLS SECTION  */
+.about-me {
+  width: 80%;
+  margin: auto;
+  min-height: 80vh;
+}
+.details-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.p-details h5 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #929292;
+}
+.individual-detail {
+  display: flex;
+  padding-top: 2rem;
+  align-items: center;
+}
+.s-icons img {
+  width: 30px;
+}
+.s-icons {
+  padding-right: 1rem;
+}
+.detail h5 {
+  color: #646464;
+  font-size: 1rem;
+}
+.detail h5 span {
+  color: #1cff68;
+  letter-spacing: 0.1rem;
+}
+/* SKILLS */
+.skills {
+}
+/* .icons-wrapper {
+  display: flex;
+} */
+.icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  padding-top: 2rem;
+}
+.skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.skill h5{
+  text-align: center;
+  padding-top: 0.5rem;
+  color: #646464;
+}
