@@ -179,6 +179,7 @@ nav {
   flex-direction: column;
   margin: auto;
   width: 80%;
+  min-height: 100vh;
 }
 .projects-head h5 {
   color: #929292;
@@ -200,7 +201,7 @@ nav {
   flex-wrap: wrap;
   flex-basis: 33.33333%;
 }
-.project-wrapper{
+.project-wrapper {
   padding-bottom: 2rem;
 }
 .individual-project {
@@ -253,4 +254,48 @@ nav {
 }
 .git {
   padding-right: 0.8rem;
+}
+/* CONTACT ME*/
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+  min-height: 80vh;
+}
+.contact-me-head{
+  display: flex;
+  flex-direction: column;
+}
+.contact-me-head h5{
+  color: #929292;
+}
+.📞 {
+  display: flex;
+  align-items: center;
+}
+.📞 h2 {
+  padding-right: 1rem;
+}
+.📞 img {
+  width: 25px;
+}
+.c-email{
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.c-email .detail h5{
+  color: #ffffff;
+}
+.address{
+  display: flex;
+  align-items: center;
+}
+.address .detail h5{
+  color: #ffffff;
+}
+.contact-links{
+  padding-top: 2rem;
 }
